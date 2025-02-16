@@ -79,3 +79,19 @@ The project uses MySQL for database management.
 - For support or questions, please reach out via:
 
    - Email: swarupkakade1810@gmail.com
+  
+### How to Add Your Website Images
+
+1. **Create an `images` Folder:**  
+   In your repository's root directory, create a folder named `images`.
+
+2. **Add Your Image Files:**  
+   Save your website screenshots (e.g., `homepage.png`, `dashboard.png`, `booking-page.png`) in the `images` folder.
+
+### Final Steps
+
+1. **Save and Commit Your Changes:**  
+   ```bash
+   git add README.md images/
+   git commit -m "Update README with detailed instructions and add website images"
+   git push
