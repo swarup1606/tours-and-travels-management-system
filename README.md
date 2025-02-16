@@ -16,3 +16,13 @@ The Tours and Travels Management System is designed to simplify the process of b
 - **Travel Agencies & Tour Operators:** Professionals seeking an efficient system to manage and streamline travel bookings and tour packages.
 - **Individual Travelers:** Users looking for a one-stop platform to book flights, manage itineraries, and organize their travel plans.
 - **Corporate Clients:** Organizations needing a robust tool for managing business travel and group bookings.
+
+## Installation / Setup
+
+1. **Clone the Repository:**
+   ```bash or cd
+   git clone https://github.com/swarup1606/tours-and-travels-management-system.git
+   cd tours-and-travels-management-system
+   
+Install Dependencies: If you're using Node.js, install the necessary packages by running:
+npm install
