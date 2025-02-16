@@ -1,8 +1,12 @@
 # ✈️Tours-and-travels-management-system🌆
 Tours and Travels Management System is a web app that streamlines travel operations by managing tour packages, bookings, itineraries, and customer inquiries, enabling efficient planning for travel agencies and tour operators✈️☺️.
 
+![1](https://github.com/user-attachments/assets/6ee9650b-96ed-408f-b10f-c8cb2e1b79b1)
+
 ### Purpose
 The Tours and Travels Management System is designed to simplify the process of booking flight tickets to various destinations across India. This platform exists to provide travelers with a seamless and efficient way to search, book, and manage their travel arrangements, ensuring a hassle-free experience whether for leisure or business. It addresses the growing demand for an integrated travel booking solution that combines flight reservations with comprehensive tour management.
+
+![2](https://github.com/user-attachments/assets/62e621f6-5f4b-48d2-adef-7792513ca81d)
 
 ### Features
 - **Flight Booking:** Easily search for and book flight tickets to numerous destinations within India.
@@ -12,10 +16,15 @@ The Tours and Travels Management System is designed to simplify the process of b
 - **User Authentication:** Secure login and registration system to ensure personalized travel management.
 - **Customer Inquiries:** Integrated support system to handle customer queries and provide assistance promptly.
 
+![3](https://github.com/user-attachments/assets/2d52ba7e-04c0-46d3-beef-3c33875348e0)
+
 ### Target Audience
 - **Travel Agencies & Tour Operators:** Professionals seeking an efficient system to manage and streamline travel bookings and tour packages.
 - **Individual Travelers:** Users looking for a one-stop platform to book flights, manage itineraries, and organize their travel plans.
 - **Corporate Clients:** Organizations needing a robust tool for managing business travel and group bookings.
+
+![5](https://github.com/user-attachments/assets/85ed9229-1090-4b21-a4b2-5916a6f92eea)
+
 
 ## Installation / Setup
 
@@ -79,6 +88,9 @@ The project uses MySQL for database management.
 - For support or questions, please reach out via:
 
    - Email: swarupkakade1810@gmail.com
+     
+![4](https://github.com/user-attachments/assets/744954cc-d860-4923-ab0d-13b6f8947ec2)
+ 
   
 ### How to Add Your Website Images
 
