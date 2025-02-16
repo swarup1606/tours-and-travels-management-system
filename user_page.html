@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            width: 60%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        h3 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        span {
+            color: #f5a623;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 14px 30px;
+            font-size: 18px;
+            text-transform: uppercase;
+            background-color: #2575fc;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            background-color: #6a11cb;
+            transform: translateY(-4px);
+        }
+
+        .logout-btn {
+            background-color: #f5a623;
+        }
+
+        .logout-btn:hover {
+            background-color: #d98f26;
+        }
+
+        .welcome-icon {
+            font-size: 100px;
+            margin-bottom: 20px;
+            color: #fff;
+            animation: bounce 1.5s infinite;
+        }
+
+        /* Animation for bouncing effect */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Simple Box shadow */
+        .container {
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 20px;
+            }
+
+            h3 {
+                font-size: 28px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .btn {
+                font-size: 16px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="welcome-icon">👋</div>
+            <h3>Login <span>Successful</span></h3>
+            <h1>Namaste, <span id="username">User</span></h1>
+            <p>Click to Proceed</p>
+            <a href="Booking_form.html" class="btn">Book Now</a>
+            <button class="btn logout-btn" id="logoutBtn">Logout</button>
+        </div>
+    </div>
+
+    <script>
+        // Get userName from localStorage
+        const userName = localStorage.getItem('userName'); // Fetch name from localStorage
+
+        // If no userName, redirect to login page
+        if (!userName) {
+            window.location.href = 'index.html'; // Redirect to login page if not logged in
+        } else {
+            // Display the user's name in the page
+            document.getElementById('username').innerText = userName;
+        }
+
+        // Handle Logout Button
+        const logoutBtn = document.getElementById('logoutBtn');
+        logoutBtn.addEventListener('click', () => {
+            // Clear user data from localStorage and redirect to login page
+            localStorage.removeItem('userName'); // Remove userName from localStorage
+            alert('You have logged out successfully!');
+            window.location.href = 'index.html'; // Redirect to login page after logout
+        });
+    </script>
+</body>
+
+</html>
