@@ -33,11 +33,11 @@ The Tours and Travels Management System is designed to simplify the process of b
    git clone https://github.com/swarup1606/tours-and-travels-management-system.git
    cd tours-and-travels-management-system
    
-2. Install Dependencies: If you're using Node.js, install the necessary packages by running:
+2. **Install Dependencies: If you're using Node.js, install the necessary packages by running:**
    ```bash 
    npm install
 
-3. Environment Setup: Create a .env file in the project root and add your environment variables.
+3. **Environment Setup: Create a .env file in the project root and add your environment variables.**
    ```bash
    # Server Configuration
    PORT=3000
@@ -48,7 +48,7 @@ The Tours and Travels Management System is designed to simplify the process of b
    DB_PASS=your_db_password
    DB_NAME=tours_travels_db
 
-4. Database Setup (MySQL Workbench)
+4. **Database Setup (MySQL Workbench)**
 The project uses MySQL for database management.
 
    - Install MySQL Workbench:
@@ -66,13 +66,13 @@ The project uses MySQL for database management.
    - Update Environment Variables:
    - Ensure your .env file reflects the correct database name, username, and password.
 
-5. Running the Application
+5. **Running the Application**
    Start your Node.js server by executing:
    ```bash
    node server.js
 -    Once the server is running, open your browser and navigate to http://localhost:3000 to view the application.
 
-6. Usage
+6.**Usage**
    - User Authentication:
       Register a new account or log in using existing credentials to access the dashboard.
    
@@ -84,7 +84,7 @@ The project uses MySQL for database management.
    - Manage itineraries.
    - Submit and view customer inquiries.
 
-7. Contact Info
+7. **Contact Info**
 - For support or questions, please reach out via:
 
    - Email: swarupkakade1810@gmail.com
