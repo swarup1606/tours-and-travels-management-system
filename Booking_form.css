@@ -1,0 +1,135 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Background Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/BG10.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+/* Container for the form */
+
+.background {
+    background: rgba(200, 0, 255, 0.674);
+    /* Semi-transparent dark background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Form Header */
+
+.booking-form h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 45px;
+}
+
+
+/* Form Elements */
+
+.booking-form label {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.booking-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+/* Button Styles */
+
+.booking-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 170px;
+}
+
+.booking-form button:hover {
+    background-color: #45a049;
+}
+
+
+/* Ticket Container */
+
+.ticket-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #333;
+    box-shadow: 0 4px 10px rgb(255, 0, 0);
+}
+
+.ticket h4 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.ticket p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.ticket button {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+#download-message {
+    font-size: 1rem;
+    color: green;
+    text-align: center;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+    .background {
+        width: 90%;
+        padding: 20px;
+    }
+    .booking-form h2 {
+        font-size: 1.5rem;
+    }
+    .booking-form input,
+    .booking-form button {
+        font-size: 1rem;
+    }
+}

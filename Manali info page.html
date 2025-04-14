@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="Manali info page.css">
+<title>Travel Website</title>
+
+<!-- Bootstrap Link -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- Bootstrap Link -->
+
+
+<!-- Font Awesome Cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<!-- Font Awesome Cdn -->
+
+ <!-- Google Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+ <!-- Google Fonts -->
+</head>
+
+
+
+
+<!--Starting photos-->
+<section class="gallery" id="gallery">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>❖I</span>nformation❖</h1>
+      </div>
+
+      <div class="row" style="margin-top: 20px;">
+        <div class="col">
+          <div class="card">
+            <img src="images/manali 1.jpg" alt="" height="260px">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/manali 2.jpg" alt="" height="260px">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/manali 3.jpg" alt="" height="260px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Starting photos-->
+
+  
+
+  <!--Information Start-->
+
+ <div class="container">
+  <div class="box">
+    <h2>Manali Holiday Package</h2>
+    <b>❖Manali It is a popular tourist destination and serves as the gateway to Lahaul & Spiti district as well as Leh. It has a reputation as a backpacking center and honeymoon destination. Manali is high altitude Himalayan resort town in the northern part of India’s in the Himachal Pradesh, near Kullu.Manali is named after the Sanatan Hindu lawgiver Manu. The name Manali is regarded as the derivative of ‘Manu-Alaya’ which literally means ‘the abode of Manu’.It is situated at a shore of River Beas and at high altitude of 2,050 meters above from the sea level. It is also a gateway for skiing in the Solang Valley and trekking in Parvati valley and home to 3,900 meters high Rohtang Pass. It is a popular jumping off point for paragliding. Rafting and mountaineering are also great activities in the Pir Panjal Mountains.<span id="dots">....</span></b><br>
+    <span id="invisible-text"><h3>!! Best Tourist Places To Visit In Manali !!</h3><br>
+    <p>1. Hidimba Devi Temple</p>
+    <p>2. Beas River</p>
+    <p>3. Solang Valley</p>
+    <p>4. Jogini Waterfalls</p>
+    <p>5. Gulaba</p>
+    <br>
+    <h3>!! Best Food in Manali !!</h3><br>
+    <p>❖&nbspTibetan Thukpa , Dhaam , Kaale Chane Ka Khatta , Aktori , Babru , Bhey , Chha Gosht etc....❖</p>
+    <br>
+    <h3>!! Hotel Povided by us !!</h3><br>
+    <p><a href="https://www.theorchardgreens.com/">❖&nbspThe Orchard Greens Resort&nbsp❖</a></p>
+    <br>
+    <h3>!! Meals Plan !!</h3><br>
+    <p>❖&nbspBreakfast&nbsp❖</p>
+    <p>❖&nbspLunch&nbsp❖</p>
+    <p>❖&nbspEvening Snack&nbsp❖</p>
+    <p>❖&nbspDinner&nbsp❖</p>
+    <br>
+    <h3>!! Flights !!</h3><br>
+    <p><a href="https://www.airindia.com/">❖&nbspAir-India&nbsp❖</a></p>
+    <p><a href="https://www.airvistara.com/in/en">❖&nbspVistara&nbsp❖</a></p>
+    <p><a href="https://www.goindigo.in/">❖&nbspIndigo&nbsp❖</a></p>
+  
+    </span></p>
+    <button id="btn" onclick="Moreless()">Read More</button>
+  </div>
+ </div> 
+
+ <script>
+  function Moreless(){
+    var dots=document.getElementById("dots");
+    var invisibleText=document.getElementById("invisible-text");
+    var btnText=document.getElementById("btn");
+    if(dots.style.display!="none"){
+      dots.style.display="none";
+      invisibleText.style.display="inline";
+      btnText.innerHTML="Read Less";
+    }
+    else{
+      invisibleText.style.display="none";
+      dots.style.display="inline";
+      btnText.innerHTML="Read More";
+    }
+  }
+ </script>
+
+ <!-- Section Services Start -->
+ <section class="services" id="services">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1><span>S</span>ervices</h1>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-hotel"></i>
+          <div class="card-body">
+            <h3>Affordable Hotel</h3>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-utensils"></i>
+          <div class="card-body">
+            <h3>Food & Drinks</h3>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fa-solid fa-phone"></i>
+          <div class="card-body">
+            <h3>Customer Care</h3>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-globe-asia"></i>
+          <div class="card-body">
+            <h3>Around India</h3>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-plane"></i>
+          <div class="card-body">
+            <h3>Fastest Travel</h3>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-hiking"></i>
+          <div class="card-body">
+            <h3>Adventures</h3>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+</section>
+<!-- Section Services End -->
+
+
+<div class="home">
+  <div class="content">
+    <a href="Login.html" class="btn">Book now</a>
+    
+  </div>
+</div>
